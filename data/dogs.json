@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Labrador Retriever",
+        "origin": "Kanada",
+        "size": "Mittel bis Groß",
+        "weight": "25-36 kg",
+        "lifespan": "10-12 Jahre",
+        "description": "Der Labrador Retriever ist bekannt für seine Freundlichkeit, Intelligenz und seinen Eifer zu gefallen. Er ist ein ausgezeichneter Familienhund."
+    },
+    {
+        "name": "Deutscher Schäferhund",
+        "origin": "Deutschland",
+        "size": "Groß",
+        "weight": "22-40 kg",
+        "lifespan": "9-13 Jahre",
+        "description": "Der Deutsche Schäferhund ist bekannt für seine Vielseitigkeit, Intelligenz und Arbeitsfähigkeit. Er wird oft als Diensthund verwendet."
+    },
+    {
+        "name": "Golden Retriever",
+        "origin": "Schottland",
+        "size": "Mittel bis Groß",
+        "weight": "25-34 kg",
+        "lifespan": "10-12 Jahre",
+        "description": "Der Golden Retriever ist ein freundlicher, intelligenter und treuer Hund, der gut mit Kindern und anderen Tieren auskommt."
+    },
+    {
+        "name": "Bulldogge",
+        "origin": "England",
+        "size": "Mittel",
+        "weight": "18-23 kg",
+        "lifespan": "8-10 Jahre",
+        "description": "Die Bulldogge ist bekannt für ihren muskulösen Körperbau und ihren freundlichen, aber sturen Charakter."
+    },
+    {
+        "name": "Beagle",
+        "origin": "England",
+        "size": "Klein bis Mittel",
+        "weight": "9-11 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Beagle ist ein kleiner Jagdhund, der für seine Freundlichkeit und seinen starken Geruchssinn bekannt ist."
+    },
+    {
+        "name": "Pudel",
+        "origin": "Deutschland/Frankreich",
+        "size": "Klein bis Groß",
+        "weight": "2-32 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Pudel ist ein intelligenter, aktiver und eleganter Hund, der für seine lockige Fellstruktur bekannt ist."
+    },
+    {
+        "name": "Rottweiler",
+        "origin": "Deutschland",
+        "size": "Groß",
+        "weight": "35-60 kg",
+        "lifespan": "8-10 Jahre",
+        "description": "Der Rottweiler ist ein kräftiger und loyaler Hund, der oft als Wach- und Diensthund eingesetzt wird."
+    },
+    {
+        "name": "Yorkshire Terrier",
+        "origin": "England",
+        "size": "Klein",
+        "weight": "2-3 kg",
+        "lifespan": "13-16 Jahre",
+        "description": "Der Yorkshire Terrier ist ein kleiner, aber mutiger Hund, der oft als Begleithund gehalten wird."
+    },
+    {
+        "name": "Boxer",
+        "origin": "Deutschland",
+        "size": "Mittel bis Groß",
+        "weight": "25-32 kg",
+        "lifespan": "10-12 Jahre",
+        "description": "Der Boxer ist ein energischer und verspielter Hund, der gut mit Kindern und Familien auskommt."
+    },
+    {
+        "name": "Dackel",
+        "origin": "Deutschland",
+        "size": "Klein",
+        "weight": "7-15 kg",
+        "lifespan": "12-16 Jahre",
+        "description": "Der Dackel, auch Teckel genannt, ist bekannt für seinen langen Körper und seine kurzen Beine. Er ist ein mutiger und neugieriger Hund."
+    },
+    {
+        "name": "Siberian Husky",
+        "origin": "Sibirien",
+        "size": "Mittel",
+        "weight": "16-27 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Siberian Husky ist ein energiegeladener und ausdauernder Hund, der ursprünglich als Schlittenhund gezüchtet wurde."
+    },
+    {
+        "name": "Dalmation",
+        "origin": "Kroatien",
+        "size": "Mittel bis Groß",
+        "weight": "20-32 kg",
+        "lifespan": "10-13 Jahre",
+        "description": "Der Dalmatiner ist bekannt für sein einzigartiges weißes Fell mit schwarzen oder braunen Flecken. Er ist ein energischer und freundlicher Hund."
+    },
+    {
+        "name": "Shih Tzu",
+        "origin": "China",
+        "size": "Klein",
+        "weight": "4-7 kg",
+        "lifespan": "10-16 Jahre",
+        "description": "Der Shih Tzu ist ein kleiner, aber selbstbewusster Hund, der für sein langes, fließendes Fell bekannt ist."
+    },
+    {
+        "name": "Dobermann",
+        "origin": "Deutschland",
+        "size": "Groß",
+        "weight": "30-40 kg",
+        "lifespan": "10-13 Jahre",
+        "description": "Der Dobermann ist ein intelligenter, mutiger und loyaler Hund, der oft als Wach- und Polizeihund eingesetzt wird."
+    },
+    {
+        "name": "Great Dane",
+        "origin": "Deutschland",
+        "size": "Sehr groß",
+        "weight": "45-90 kg",
+        "lifespan": "7-10 Jahre",
+        "description": "Die Deutsche Dogge ist eine der größten Hunderassen und bekannt für ihre Freundlichkeit und Sanftmut."
+    },
+    {
+        "name": "Miniature Schnauzer",
+        "origin": "Deutschland",
+        "size": "Klein",
+        "weight": "5-9 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Zwergschnauzer ist ein kleiner, aber lebhafter und intelligenter Hund, der für seine charakteristischen Schnurrhaare bekannt ist."
+    },
+    {
+        "name": "Australian Shepherd",
+        "origin": "Vereinigte Staaten",
+        "size": "Mittel",
+        "weight": "16-32 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Australian Shepherd ist ein intelligenter, aktiver und vielseitiger Hund, der für seine Hütefähigkeiten bekannt ist."
+    },
+    {
+        "name": "Chihuahua",
+        "origin": "Mexiko",
+        "size": "Klein",
+        "weight": "1-3 kg",
+        "lifespan": "12-20 Jahre",
+        "description": "Der Chihuahua ist die kleinste Hunderasse der Welt und bekannt für seinen lebhaften Charakter und seine Loyalität."
+    },
+    {
+        "name": "Pug",
+        "origin": "China",
+        "size": "Klein",
+        "weight": "6-8 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Mops ist ein kleiner, aber robuster Hund, der für sein faltiges Gesicht und seinen charmanten Charakter bekannt ist."
+    },
+    {
+        "name": "Maltese",
+        "origin": "Mittelmeerraum",
+        "size": "Klein",
+        "weight": "2-3 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Malteser ist ein kleiner Hund mit langem, seidigem Fell und einem sanften, aber lebhaften Charakter."
+    },
+    {
+        "name": "Shetland Sheepdog",
+        "origin": "Schottland",
+        "size": "Klein bis Mittel",
+        "weight": "6-12 kg",
+        "lifespan": "12-14 Jahre",
+        "description": "Der Shetland Sheepdog, auch Sheltie genannt, ist ein intelligenter und energiegeladener Hütehund."
+    },
+    {
+        "name": "Cocker Spaniel",
+        "origin": "England",
+        "size": "Mittel",
+        "weight": "11-15 kg",
+        "lifespan": "12-15 Jahre",
+        "description": "Der Cocker Spaniel ist ein freundlicher und liebevoller Hund, der oft als Familienhund gehalten wird."
+    },
+    {
+        "name": "Boston Terrier",
+        "origin": "Vereinigte Staaten",
+        "size": "Klein",
+        "weight": "4.5-11 kg",
+        "lifespan": "11-15 Jahre",
+        "description": "Der Boston Terrier ist ein kleiner, aber lebhafter Hund, der für seine Intelligenz und sein charmantes Auftreten bekannt ist."
+    }
+]
