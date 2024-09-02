@@ -1,46 +1,28 @@
-const express = require("express");
-const cors = require("cors");
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-const taskRoutes = require("./routes/tasks");
-const testRoutes = require("./routes/test");
+// index.js
 
-dotenv.config();
+// Importieren der benötigten Module
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config(); // Zum Laden von Umgebungsvariablen aus der .env-Datei
 
+// Erstellen einer neuen Express-Anwendung
 const app = express();
 
-// Konfiguriere CORS, um nur Anfragen von http://localhost:3000 zuzulassen
-const corsOptions = {
-  origin: process.env.ORIGIN,
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-};
+// Aktivieren von CORS für alle Anfragen
+app.use(cors());
 
-app.use(cors(corsOptions));
-
-const PORT = process.env.PORT || 5000;
-
-// Middleware
+// Middleware zum Parsen von JSON-Anfragen
 app.use(express.json());
 
-// MongoDB-Verbindung
-mongoose
-  .connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("MongoDB connected");
-  })
-  .catch((err) => {
-    console.error("MongoDB connection error:", err);
-  });
+// Definieren des Ports, auf dem der Server laufen soll
+const PORT = process.env.PORT || 3000;
 
-// Routen
-app.use("/api/tasks", taskRoutes);
-app.use("/api/test", testRoutes);
+// Beispielroute für GET-Anfragen
+app.get('/', (req, res) => {
+  res.send('Hello World from Express server!');
+});
 
-// Startet den Server
+// Starten des Servers und Abhören auf dem angegebenen Port
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
