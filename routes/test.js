@@ -1,32 +1,30 @@
 const express = require("express");
-const Task = require("../models/Task");
+const fs = require("fs");
+const path = require("path");
 const router = express.Router();
 
-// Alle Aufgaben abrufen
-router.get("/", async (req, res) => {
-  const tasks = await Task.find({ userId: req.query.userId });
-  res.json(tasks);
-});
+// Pfad zur JSON-Datei
+const dogsDataPath = path.join(__dirname, "../data/dogs.json");
 
-// Neue Aufgabe erstellen
-router.post("/", async (req, res) => {
-  const task = new Task(req.body);
-  await task.save();
-  res.status(201).json(task);
-});
+// Alle Hunderassendaten abrufen
+router.get("/", (req, res) => {
+  // Die JSON-Datei asynchron lesen
+  fs.readFile(dogsDataPath, "utf8", (err, data) => {
+    if (err) {
+      console.error("Fehler beim Lesen der Datei:", err);
+      return res.status(500).json({ error: "Fehler beim Abrufen der Daten" });
+    }
 
-// Aufgabe aktualisieren
-router.put("/:id", async (req, res) => {
-  const task = await Task.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
+    // Die Daten an den Client zurücksenden
+    try {
+      const dogs = JSON.parse(data);
+      res.json(dogs);
+    } catch (parseError) {
+      console.error("Fehler beim Parsen der JSON-Daten:", parseError);
+      res.status(500).json({ error: "Fehler beim Verarbeiten der Daten" });
+    }
   });
-  res.json(task);
-});
-
-// Aufgabe löschen
-router.delete("/:id", async (req, res) => {
-  await Task.findByIdAndDelete(req.params.id);
-  res.status(204).send();
 });
 
 module.exports = router;
+
