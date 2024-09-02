@@ -1,6 +1,6 @@
 Test
 
-Ich möchte hier ein Projekt starten um ein Fullstack Projekt von mir von Next.js um zu schreiben in zwei projekte
+Ich möchte hier ein Fullstack Next.js Projekt von mir aufteilen, um zu testen ob es getrennt schneller ist oder nicht.
 
 - Server - Node.js
 - Client - Gatsby oder React
