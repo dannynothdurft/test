@@ -3,6 +3,7 @@
 // Importieren der benötigten Module
 const express = require('express');
 const cors = require('cors');
+const testRoutes = require("./routes/test");
 require('dotenv').config(); // Zum Laden von Umgebungsvariablen aus der .env-Datei
 
 // Erstellen einer neuen Express-Anwendung
@@ -21,6 +22,8 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.send('Hello World from Express server!');
 });
+
+app.use("/api/test", testRoutes);
 
 // Starten des Servers und Abhören auf dem angegebenen Port
 app.listen(PORT, () => {
